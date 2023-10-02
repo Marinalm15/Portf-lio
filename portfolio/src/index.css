@@ -14,7 +14,6 @@ header {
   position: fixed;
   width: 100%;
 
-  color: #5d483c;
   font-weight: 700;
 
   display: flex;
@@ -42,6 +41,8 @@ footer {
   margin-right: 4rem;
   text-decoration: underline;
   cursor: pointer;
+  color: #5d483c;
+
 }
 
 .title:hover {
@@ -75,4 +76,75 @@ footer {
 
 .name {
   margin-left: 3rem;
+}
+
+.about-wraper { 
+  padding-top: 3rem;
+  margin: 0 8rem;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.about-p {
+  color: #5d483c;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.foto {
+  width: 90%;
+  border-radius: 50%;
+}
+
+.about-title {
+  padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  color: #5d483c;
+}
+
+.contact-container {
+  padding-top: 10rem;
+  padding-left: 20rem;
+  gap: 3rem;
+  display: flex;
+  justify-content: flex-center;
+  flex-direction: column;
+  color: #5d483c;
+}
+
+.contact a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-text {
+  color: #5d483c;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-contact {
+  width: 20%;
+  height: 20%;
+  margin-top: 9rem;
+  margin-left: 10rem;
 }
