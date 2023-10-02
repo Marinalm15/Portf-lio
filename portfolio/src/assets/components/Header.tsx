@@ -1,5 +1,5 @@
 import '../../index.css'
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
     return (
@@ -7,6 +7,7 @@ export default function Header() {
         <NavLink className='title' to={'/'}>Marina Mendonça</NavLink>
         <NavLink className='title' to={'/about'}>About</NavLink>
         <NavLink className='title' to={'/work'}>Work</NavLink>
+        <NavLink className='title' to={'/contacts'}>Contacts</NavLink>
     </header>
    ) 
 }
