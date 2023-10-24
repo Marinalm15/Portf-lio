@@ -1,6 +1,6 @@
-import '../../index.css'
+import '../index.css'
 
-import { Router } from '../../../Router'
+import { Router } from '../../Router'
 import { BrowserRouter } from 'react-router-dom'
 
 function App() {
