@@ -179,3 +179,20 @@ footer {
   text-decoration: none;
   color: #5d483c;
 }
+
+.work-image {
+  width: 20rem;
+}
+
+.work-title {
+  color: #5d483c;
+}
+
+.work-links {
+  display: flex;
+  flex-direction: row; 
+  gap: 0.5rem;
+  align-items: center;
+  color: #5d483c;
+  text-decoration: none;
+}

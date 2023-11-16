@@ -1,8 +1,7 @@
 import { Route, Routes } from "react-router-dom";
-import App from "./src/assets/App";
 import About from "./src/assets/components/About";
 import PaginaInicial from "./src/assets/components/PaginaInicial";
-import Work from "./src/assets/components/Works";
+import Works from "./src/assets/components/Works";
 import Contacts from "./src/assets/components/Contacts";
 import JogoDaVelha from "./src/assets/components/Works/JogoDaVelha";
 
@@ -26,10 +25,10 @@ export function Router() {
       />
 
       <Route
-        path="/work"
+        path="/works"
         index
         element={
-          <Work />
+          <Works />
         }
       />
 

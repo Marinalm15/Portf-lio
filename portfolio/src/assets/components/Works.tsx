@@ -1,10 +1,9 @@
-import { NavLink } from 'react-router-dom';
 import '../../index.css'
 import { works } from '../helpers/work-boxes';
 import Footer from "./Footer";
 import Header from "./Header";
 
-export default function Work() {
+export default function Works() {
     return (
         <>
         <Header />

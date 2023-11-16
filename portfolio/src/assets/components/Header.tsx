@@ -6,7 +6,7 @@ export default function Header() {
     <header>
         <NavLink className='title' to={'/'}>Marina Mendonça</NavLink>
         <NavLink className='title' to={'/about'}>About</NavLink>
-        <NavLink className='title' to={'/work'}>Work</NavLink>
+        <NavLink className='title' to={'/works'}>Works</NavLink>
         <NavLink className='title' to={'/contacts'}>Contacts</NavLink>
     </header>
    ) 
