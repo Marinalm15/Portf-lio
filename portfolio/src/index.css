@@ -174,3 +174,8 @@ footer {
   text-align: center;
   gap: 0.5rem;
 }
+
+.works-title {
+  text-decoration: none;
+  color: #5d483c;
+}
